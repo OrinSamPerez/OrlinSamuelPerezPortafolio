@@ -10,8 +10,8 @@ form div{
     margin-top: 20px;
 }
 #contact input{
-    width: 300px;
-    height: 25px;
+width: 300px;
+height: 25px;
 }
 #contact form{
     text-align: left;
@@ -32,10 +32,12 @@ form div{
 
 }
 
-.contact-boton input{
-    width: 20px;
+.contact-boton button{
+    width: 147px;
 }
+
 footer p{
-    width: 90%;
+    text-align: center;
     font-size: 18px;
+    padding: 15px;
 }
