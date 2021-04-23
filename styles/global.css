@@ -1,0 +1,108 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #20007C;
+    color: white;
+    font-family: 'Poppins';
+}
+#lista img{
+    display: none;
+    position: fixed;
+    top: 20px;
+    right: 60px;
+    width: 40px;
+}
+nav{
+    position: fixed;
+    top: 20px;
+    right: 25px;
+}
+header{
+    position: fixed;
+    top: 1px;
+    left: 75px;
+    font-family: 'Calligraffitti';
+}
+nav ul {
+    display: flex;
+}
+nav ul li{
+    padding-left: 20px;
+}
+li{
+    list-style: none;
+}
+a{
+
+    font-size: 18px;
+    color:rgb(252, 252, 252);
+    text-decoration: none;
+}
+nav, header{
+    position: absolute;
+}
+.nav-white{
+    background-color: white;
+}
+.navBar-movil img{
+    position: fixed;
+    top: 20px;
+    right: 8%;
+    cursor: pointer;
+    width: 40px;
+}
+/* Nav movil */
+.navBar-movil div{
+    width: 100%;
+    height: 100vh;
+    background-color: #20007C;
+    /* filter: blur(73px); */
+    position: fixed;
+    top: 0%;
+    right: 0%;
+
+}
+
+.navBar-movil ul{
+    position: fixed;
+    top: 100px;
+    right:8% ;
+    font-size: 35px;
+    text-align: right;
+}
+.navBar-movil a{
+    font-weight: bold;
+}
+.navBar-movil ul li a:hover{
+    text-decoration: line-through;
+}
+
+@media (max-width:790px){
+    nav{
+        display: none;
+    }
+    header{
+        left: 20px;
+    }
+    #lista img{
+        cursor: pointer;
+        display: block;
+    }
+}
+.default{
+    width: 130px;
+    height: 55px;
+    border: none;
+    color: white;
+    background-color: rgb(255,0,68);
+    border-radius:4px ;
+    box-shadow: inset 0 0 0 0 #f9e506;
+    transition: ease-out 0.3s;
+    font-size: 18px;
+    outline: none;
+}
+.default:hover{
+    box-shadow: inset 150px  0 0 0 #f9e506;
+    cursor: pointer;
+    color: black;
+}

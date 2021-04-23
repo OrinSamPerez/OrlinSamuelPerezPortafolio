@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orlin Samuel Pérez</title>
+    <link href="https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/global.css">
+    <link rel="stylesheet" href="../styles/home.css">
+    <link rel="stylesheet" href="../styles/about.css">
+    <link rel="stylesheet" href="../styles/servicios.css">
+    <link rel="stylesheet" href="../styles/services.css">
+    <link rel="stylesheet" href="../styles/porf.css">
+    <link rel="stylesheet" href="../styles/contact.css">
+</head>
+<body>
+    <!-- Navegacion -->
+    <div onclick="openMenu()" id="lista">
+        <img src="../img/lista.svg" alt="">
+    </div>
+    <header><h1>OSPA</h1></header>
+    <nav id="navbar">
+        <ul>
+            <li><a target="_blank" href="https://ballenitadev.blogspot.com/">Blog</a></li>
+            <li><a href="#about">Sobre mi</a></li>
+            <li><a href="#Servicios">Servicios</a></li>
+            <li><a href="">Portafolio</a></li>
+            <li><a href="#contact">Contactos</a></li>
+        </ul>
+    </nav>
+
+    <!-- casa -->
+    <section id="home">
+        <div class="info-home">
+            <img src="../img/mi-foto.png" alt="Orlin-Samuel-Perez-Web-Developer-html-css-javascript-react-nodejs">
+            <div class="grupo-Boton">
+                <button class="boton-online">Leer Más</button>
+                <button class="boton-online">Descargar CV</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- sobre mi -->
+    <section id="about">
+        <h1>Sobre mi</h1>
+        <article>
+            <p class="text-info">
+                Hola que tal mi nombre es Orlin Samuel Pérez, desarrollador de aplicaciones web, apasionado con la tecnologia. Comence a programar
+                con python. Me gusta el ecosistema de Javascript con React. He conocido, estudiado y practicado, backend con nodejs, UI con Figma, 
+                pero actualmente me dedico  al 100% como frontend developer. 
+            </p>
+        </article>
+       <div class="main-about">
+            <article id="skill"> 
+                <h2>Habilidades</h2>
+                <div class="grid-skill">
+                    <div>
+                        <ul>
+                            <li><button><img src="../img/figma.svg" alt=""> Figma</button></li>
+                            <li><button><img src="../img/html-5.svg" alt=""> Html</button></li>
+                            <li><button> <img src="../img/css-3.svg" alt=""> Css</button></li>
+                            <li><button> <img src="../img/javascript.svg" alt=""> JavaScript</button></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul>
+                            <li><button class="react"> <img src="../img/react.svg" alt=""> React-Js</button></li>
+                            <li><button> <img class="next-icon" src="../img/nextjs-icon.svg" alt=""> Next-Js</button></li>
+                            <li><button> <img src="../img/nodejs-icon.svg" alt=""> Node-Js</button></li>
+                            <li><button><img src="../img/firebase.svg" alt=""> Firebase</button></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul>
+                            <li><button class="react"> <img src="../img/bootstrap.svg" alt=""> Bootstrap</button></li>
+                            <li><button> <img class="next-icon" src="../img/bulma.svg" alt=""> Bulma</button></li>
+                            <li><button> <img src="../img/material-ui.svg" alt=""> Material-ui</button></li>
+                            <li><button><img src="../img/git-icon.svg" alt=""> Git</button></li>
+                        </ul>
+                    </div>
+                </div>
+            </article>    
+
+       </div>
+       <button class="cv default">Descargar CV</button>  
+
+    </section>
+
+    <!-- servicios -->
+    <section id="Servicios">
+        <h1>Servicios</h1>
+        <div>
+            <article class="card">
+                <img src="../img/clas.svg"/>
+                <h3>Clases online</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi pariatur praesentium rem repellendus exercitationem incidunt iure enim quae laborum suscipit similique vel at doloremque non obcaecati corrupti, animi, beatae a?
+                </p>
+            </article>
+            <article class="card">
+                <img src="../img/adatable.svg"/>
+                <h3>Web adaptable con un diseño unico</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi pariatur praesentium rem repellendus exercitationem incidunt iure enim quae laborum suscipit similique vel at doloremque non obcaecati corrupti, animi, beatae a?
+                </p>
+            </article>
+
+            <article class="card">
+                <img src="../img"/>
+                <h3>Clases online</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi pariatur praesentium rem repellendus exercitationem incidunt iure enim quae laborum suscipit similique vel at doloremque non obcaecati corrupti, animi, beatae a?
+                </p>
+            </article>
+        </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="Proyectos">
+        <!-- Inyectado con Javascript -->
+    </section>
+
+    <!-- Contactos -->
+    <footer id="contact">
+        <h1>Hablemos</h1>
+        <form action="" autocomplete="on" id="send-correo">
+            <div>
+                <label for="name">Nombre</label><br>
+                <input id="name" type="text" >
+            </div>
+            <div>
+                <label for="email">Correo</label><br>
+                <input id="email"  type="email" >
+            </div>
+            <div>
+                <label for="note">Escribe una nota </label><br>
+                <input id="note" type="text" >
+            </div>
+            <article class="contact-boton"> 
+                <input type="reset" class="default" value="Cancelar">
+                <input type="submit"id="send" class="default" style="background-color: green;" value="Enviar">
+            </article>
+        </form>
+        <div class="redes">
+            <ul>
+                <li><a href="#" target="_blank"><img src="../img/instagram.svg" alt=""></a></li>
+                <li><a href="#" target="_blank"><img src="../img/linkedin.svg" alt=""></a></li>
+            </ul>
+        </div>  
+        <div class="derechos">
+            <p>Todos los derechos reservado por Orlin Samuel Pérez, 2021</p>
+        </div>
+      </footer>
+
+    <div id="navBar-M" class="navBar-movil">
+        <div></div>
+        <img onclick="closeMenu()"  src="../img/cancel.svg" alt="">
+        <ul>
+            <li><a target="_blank" href="https://ballenitadev.blogspot.com/">Blog</a></li>
+            <li><a href="#about">Sobre mi</a></li>
+            <li><a href="#Servicios">Servicios</a></li>
+            <li><a href="">Portafolio</a></li>
+            <li><a href="#Contact">Contactos</a></li>
+        </ul>
+    </div>
+    <script src="../src/index.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+        emailjs.init("user_7NF5S7PVUj54KFWjGVqbt");
+        })();
+    </script>
+
+</body>
+</html>
