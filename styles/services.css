@@ -50,6 +50,10 @@
     }
     .card{
         width: 93%;
+        text-align: center;
+    }
+    .card p{
+        text-align: center;
     }
     .card:hover{
         box-shadow: -1px 1px 5px rgba(0, 0, 0, 0.466);
