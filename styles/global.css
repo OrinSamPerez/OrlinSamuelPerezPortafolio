@@ -39,6 +39,9 @@ a{
     color:rgb(252, 252, 252);
     text-decoration: none;
 }
+a:hover{
+    text-decoration: line-through;
+}
 nav, header{
     position: absolute;
 }

@@ -10,8 +10,6 @@
     <link rel="stylesheet" href="./styles/global.css">
     <link rel="stylesheet" href="./styles/home.css">
     <link rel="stylesheet" href="./styles/about.css">
-    <link rel="stylesheet" href="./styles/servicios.css">
-    <link rel="stylesheet" href="./styles/services.css">
     <link rel="stylesheet" href="./styles/porf.css">
     <link rel="stylesheet" href="./styles/contact.css">
 </head>
@@ -25,7 +23,7 @@
         <ul>
             <li><a target="_blank" href="https://ballenitadev.blogspot.com/">Blog</a></li>
             <li><a href="#about">Sobre mi</a></li>
-            <li><a href="#Servicios">Servicios</a></li>
+            <!-- <li><a href="#Servicios">Servicios</a></li> -->
             <li><a href="">Portafolio</a></li>
             <li><a href="#contact">Contactos</a></li>
         </ul>
@@ -36,7 +34,7 @@
         <div class="info-home">
             <img src="../img/mi-foto.png" alt="Orlin-Samuel-Perez-Web-Developer-html-css-javascript-react-nodejs">
             <div class="grupo-Boton">
-                <a href="#about"><button class="boton-online">Leer Más</button></a>
+                <a href="#about"><button class="boton-online">Ver Más</button></a>
                 <button class="boton-online">Descargar CV</button>
             </div>
         </div>
@@ -88,38 +86,57 @@
 
     </section>
 
-    <!-- servicios -->
-    <section id="Servicios">
-        <h1>Servicios</h1>
-        <div>
-            <article class="card">
-                <img src="./img/clas.svg"/>
-                <h3>Clases Personales</h3>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi pariatur praesentium rem repellendus exercitationem incidunt iure enim quae laborum suscipit similique vel at doloremque non obcaecati corrupti, animi, beatae a?
-                </p>
-            </article>
-            <article class="card">
-                <img src="./img/adatable.svg"/>
-                <h3>Web adaptable con un diseño unico</h3>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi pariatur praesentium rem repellendus exercitationem incidunt iure enim quae laborum suscipit similique vel at doloremque non obcaecati corrupti, animi, beatae a?
-                </p>
-            </article>
-
-            <article class="card">
-                <img src="./img/personal.svg"/>
-                <h3>Desarrollo de publicidad para tu negocio</h3>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi pariatur praesentium rem repellendus exercitationem incidunt iure enim quae laborum suscipit similique vel at doloremque non obcaecati corrupti, animi, beatae a?
-                </p>
-            </article>
-        </div>
-    </section>
-
     <!-- Proyectos -->
     <section id="Proyectos">
         <!-- Inyectado con Javascript -->
+        <h1>Portafolio</h1>
+        <div class="grid-porf">
+            <article class="card-p">
+                <div class="bord-class">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <span>Hola.dev</span>
+                </div>
+                <img src="https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="p"/>
+                <div class="card-info">
+                    <a>Ver Codigo</a>
+                    <a>Ver proyecto</a>
+                    <div>   
+                    </div>
+                </div>
+            </article>
+            <article class="card-p">
+                <div class="bord-class">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <span>Hola.dev</span>
+                </div>
+                <img src="https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="p"/>
+                <div class="card-info">
+                    <a>Ver Codigo</a>
+                    <a>Ver proyecto</a>
+                    <div>   
+                    </div>
+                </div>
+            </article>        
+                <article class="card-p">
+                <div class="bord-class">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <span>Hola.dev</span>
+                </div>
+                <img src="https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="p"/>
+                <div class="card-info">
+                    <a>Ver Codigo</a>
+                    <a>Ver proyecto</a>
+                    <div>   
+                    </div>
+                </div>
+            </article>
+        </div>
     </section>
 
     <!-- Contactos -->
@@ -145,8 +162,8 @@
         </form>
         <div class="redes">
             <ul>
-                <li><a href="#" target="_blank"><img src="../img/instagram.svg" alt=""></a></li>
-                <li><a href="#" target="_blank"><img src="../img/linkedin.svg" alt=""></a></li>
+                <li><a href="https://instagram.com/orlin_s.perez?igshid=1q5d3lv0aqqrr" target="_blank"><img src="../img/instagram.svg" alt=""></a></li>
+                <li><a href="https://www.linkedin.com/in/orlin-samuel-36535a1a0" target="_blank"><img src="../img/linkedin.svg" alt=""></a></li>
             </ul>
         </div>  
         <div class="derechos">
@@ -159,10 +176,9 @@
         <img onclick="closeMenu()"  src="../img/cancel.svg" alt="">
         <ul>
             <li><a target="_blank" href="https://ballenitadev.blogspot.com/">Blog</a></li>
-            <li><a href="#about">Sobre mi</a></li>
-            <li><a href="#Servicios">Servicios</a></li>
-            <li><a href="">Portafolio</a></li>
-            <li><a href="#Contact">Contactos</a></li>
+            <li><a href="#about" onclick="closeMenu()">Sobre mi</a></li>
+            <li><a href="#Proyectos" onclick="closeMenu()">Portafolio</a></li>
+            <li><a href="#Contact" onclick="closeMenu()">Contactos</a></li>
         </ul>
     </div>
     <script src="../src/index.js"></script>
