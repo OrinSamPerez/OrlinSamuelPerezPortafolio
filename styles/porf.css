@@ -15,7 +15,6 @@
 }
 .card-p{
     width: 350px;
-    
     transition: 0.5s ease-in-out;
 }
 .grid-porf{
@@ -79,7 +78,8 @@
     
 }
 .bord-class span{
-    margin-left: 60px;
+    margin-left: auto;
+    margin-right: 10px;
 }
 
 /* .card-p:before{
@@ -110,4 +110,33 @@
 .card-p:hover .card-info{
     opacity: 1;
     transform: translateY(0px);
+}
+.info-imgs{
+    display: flex;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    padding-left: auto;
+    margin-top: 5px;
+}
+.info-imgs img{
+    width: 35px;
+    margin-left: 10px;
+}
+.card-p a{
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.js{
+    margin-top: 8px;
+}
+.next{
+    margin-top: 5px;
+}
+.git-hub img{
+    padding-top:10px ;
+    width:34px;
+}
+.proyect-icon img{
+    width: 30px;
 }
