@@ -16,9 +16,10 @@ document.getElementById('send').addEventListener('click', (e)=>{
         Note: Note,
         Email: Email,
         }).then((result)=>{
-            console.log(result)
+            alert("Gracias por contactarme, espere una repuesta muy pronto")
+            console.log('e')
         })
-        .catch((error)=> console.log(error));
+        .catch((error)=>{alert("Problema al enviar")});
 
 });
 
